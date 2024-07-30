@@ -1,8 +1,8 @@
-h1 p body {
+h1, p, body {
   margin: 0;
 }
 
-p a{
+p, a{
   font-size: 20;
 }
 
@@ -17,7 +17,7 @@ h1 {
 }
 
 main {
-  margin: 10px;
+  padding: 10px;
 }
 
 #parent {
@@ -54,7 +54,7 @@ h2::before {
   width: 70%;
 }
 
-fotter {
+footer {
   background-color: rgb(244, 79, 79);
   text-align: center;
 }
